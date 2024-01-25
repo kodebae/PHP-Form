@@ -5,5 +5,6 @@ $dbHost = "localhost";
 $dbUser = "root";
 // default password is currently set to null
 $dbPass = "";
-$dbName = "";
+// the name of my database
+$dbName = "phpformdata";
 ?>

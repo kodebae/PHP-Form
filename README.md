@@ -14,19 +14,19 @@ This project is an example form for testing the capabilities of PHP.
 - [License](#license)
 
 ## Features
-List and describe the main features of your project.
-
-1. Feature 1: 
-2. Feature 2: 
+1. Feature 1: Project set up to run with XAMPP, runs in the browser and locally if correctly configured. 
+2. Feature 2: Navigate to the "phpmyadmin" console via local host to utilize the GUI interface, manage database directly. Write SQL quries directly on the dashboard, import or export files and more.
 
 
 ## Notes
-* bulleted notes go here
-*
-*
+* in XAMPP start Apache and MySQL server.
+* navigate to: http://localhost/phpmyadmin in your browser, you should see a visual interface for the database, documentation, as well as configuration data displayed.
+
 
 
 ## Troubleshooting
+* Be sure that both servers, Apache and MySQL are started and running.
+* check the localhost connection and server ports.
 
 ```
 // TODO add code snippets here
