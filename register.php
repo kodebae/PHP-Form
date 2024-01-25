@@ -2,14 +2,15 @@
 require_once 'includes/header.php';
 ?>
 <div class="form-container">
-    <h1>Login</h1>
-    <p>Need a new account?<a href="register.php">Sign up here!</a></p>
+    <h1>Register</h1>
+    <p>Have an existing account?<a href="login.php">Login</a></p>
 
-    <form action="includes/login-script.php" method="post">
+    <form action="" method="post">
         <input type="text" name="username" placeholder="username">
         <input type="text" name="password" placeholder="password">
+        <input type="text" name="confirmPassword" placeholder="confirm password">
         <input type="text" name="email" placeholder="email">
-        <button type="submit" name="submit">Login</button>
+        <button type="submit" name="submit">Sign Up</button>
     </form>
 </div> 
 

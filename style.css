@@ -9,6 +9,8 @@ html {
   body {
     padding:0%;
     margin: 0%;
+    font-weight: bold;
+    font-size: 18px;
   }
 
   header {
@@ -23,15 +25,20 @@ html {
 
   p a {
     color:navy;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
   }
   
-  /* Form Container
-  form {
+  .form-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  } */
+  } 
 
   ul {
     float: right;
@@ -53,16 +60,22 @@ html {
   }
   
   /* Form Input Styles */
-/* 
-  label {
+
+  input {
     display: block;
-    margin-bottom: 8px;
+    margin: 8px auto;
     font-weight: bold;
-  } */
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    width: 250px;
+    height: 40px;
+  } 
   
   /* input[type="username"],
   input[type="email"],
-  input[type="password"],
+  input[type="password"], */
+
   textarea {
     width: 100%;
     padding: 8px;
@@ -70,33 +83,37 @@ html {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-  } */
+  } 
   
   /* Form Button Styles */
-  /* button {
-    background-color: #3498db;
+  button {
+    background-color:navy;
     color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
     cursor: pointer;
-  } */
+    width: 250px;
+    height: 50px;
+  } 
   
-  /* button:hover {
-    background-color: #007bb5;
-  } */
+  button:hover {
+    background-color:dodgerblue;
+  }
   
   /* Form Error Message */
-  /* .error-message {
+  .error-message {
     color: #e74c3c;
     margin-top: 5px;
-  } */
+  } 
   
   /* Form Success Message */
-  /* .success-message {
+  .success-message {
     color: #2ecc71;
     margin-top: 5px;
-  } */
+  }
 
   footer {
     position: absolute;
@@ -104,7 +121,7 @@ html {
     width: 100%;
     height: 60px;
     background-color: #f4f4f4;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px grey;
     text-align: center;
     margin: 0, auto;
   }
