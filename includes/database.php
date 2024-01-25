@@ -7,4 +7,14 @@ $dbUser = "root";
 $dbPass = "";
 // the name of my database
 $dbName = "phpformdata";
+
+// database connection: "i" supports more features than the "mysql" without it
+$dbConnect = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 ?>
+
+// some error handling...
+if ($dbConnect) {
+
+} else {
+    die("504: failed to connect to the database.");
+}
