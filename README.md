@@ -35,10 +35,10 @@ This project is an example form for testing the capabilities of PHP.
 
 
 ## Resources 
-[PHP Documentation](https://www.php.net/manual/en/function.phpinfo.php)
-[Guru 99 PHP Tutorial](https://www.guru99.com/php-tutorials.html)
-[PHP MySQLi Functions](https://www.guru99.com/mysql-php-and-other-database-access-methods.html)
-[PHP Free Code Camp Tutorial](https://www.youtube.com/watch?app=desktop&v=OK_JCtrrv-c)
+- [PHP Documentation](https://www.php.net/manual/en/function.phpinfo.php)
+- [Guru 99 PHP Tutorial](https://www.guru99.com/php-tutorials.html)
+- [PHP MySQLi Functions](https://www.guru99.com/mysql-php-and-other-database-access-methods.html)
+- [PHP Free Code Camp Tutorial](https://www.youtube.com/watch?app=desktop&v=OK_JCtrrv-c)
 
 
 ## License

@@ -12,9 +12,10 @@ $dbName = "phpformdata";
 $dbConnect = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 ?>
 
-// some error handling...
+<!-- // some error handling...
+
 if ($dbConnect) {
 
 } else {
     die("504: failed to connect to the database.");
-}
+} -->
